@@ -1,12 +1,19 @@
 {
   "log": ["*"],
   "databases": {
-    "moviesapp": {
+    "veiculos": {
       "server": "http://couchbase-server:8091",
-      "bucket": "moviesapp",
+      "bucket": "veiculos",
       "users": {
         "GUEST": {"disabled": false, "admin_channels": ["*"]}
       }
-    }
+    },
+    "smt": {
+      "server": "http://couchbase-server:8091",
+      "bucket": "smt",
+      "users": {
+        "GUEST": {"disabled": false, "admin_channels": ["*"]}
+      }
+    }    
   }
 }
